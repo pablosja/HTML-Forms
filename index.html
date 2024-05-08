@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>HTML-Forms</title>
+</head>
+<body>
+    <h1>HTML form</h1>
+    <h2>Form Alpha</h2>
+    <form id="myform">
+        <div class="container">
+        <h4 id="perdat">1. Personal Data</h4>
+    <div id="dev1">
+        <label for="name">Name: </label><br>
+        <input id="nameinput" type="text"></input><br>
+    </div>      
+    <div id="dev2">
+        <label for="email">Email: </label><br>
+        <input id="emailinput" type="text"></input><br>
+    </div>
+    <div id="dev3">
+        <label for="age">Age: </label><br>
+        <input id="ageinput" type="text"></input><br>
+    </div>
+    <div id="dev4">
+        <h4 id="que">2. Questions</h4>
+        <p id="describe">2.1. Which option describes you best?</p>
+        <form id="selectform">
+            <label for="description">Descripción</label>
+            <select name="description" id="desc">
+                <option value="joyful">Joyful</option>
+                <option value="broody">Broody</option>
+                <option value="optimistic">Optimistic</option>
+                <option value="reflective">Reflective</option>
+                <option value="impulsive">Impulsive</option>
+                <option value="moody">Moody</option>
+            </select>
+            </form>
+    <div id="dev5">
+        <p id="recommend">2.2. Would you recommend this site?</p>
+        <input type="radio"></input><label for="yes">Yes</label><br>
+        <input type="radio"></input><label for="no">No</label><br>
+        <input type="radio"></input><label for="maybe">Maybe</label><br>
+    </div>
+    <div id="dev6">
+        <p id="langfram">2.3. What languages and frameworks do you know?</p>
+        <input type="checkbox"></input><label for="htmlcss"> HTML/CSS</label><br>
+        <input type="checkbox"></input><label for="javascript"> Javascript</label><br>
+        <input type="checkbox"></input><label for="java"> Java</label><br>
+        <input type="checkbox"></input><label for="bootstrap"> Bootstrap</label><br>
+        <input type="checkbox"></input><label for="laravel"> Laravel</label><br>
+    </div>
+    <div id="dev7">
+        <input id="subbut" type="submit"></input>
+     </div>
+    </div>
+    </div>
+    <div class="cuadrado">
+    </div>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>
