@@ -39,5 +39,16 @@ h2 {
     border: 2px solid #ooo;
     margin-left: 38%;
     margin-top: -35%;
+    border-radius: 20px;
+    border-color: black;
+    border: 1px solid black;
 }
 
+#nameinput, #ageinput, #emailinput {
+    width: 300px;
+}
+
+#desc {
+    width: 310px;
+    text-align: center;
+}
